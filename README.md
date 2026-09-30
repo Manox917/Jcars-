@@ -8,7 +8,7 @@ Cars Logistics Power BI Business Intelligence Project
 
 32 raw columns
 
-## Raw grain: one supplied business record per row. Order ID is not a reliable unique key because duplicate/placeholder IDs exist and must be investigated.
+ Raw grain: one supplied business record per row. Order ID is not a reliable unique key because duplicate/placeholder IDs exist and must be investigated.
 
 ## Data Quality
 
@@ -74,5 +74,6 @@ Include slicers, cross-filtering, a drill-through page, a report tooltip and pag
 Core measures include Total Orders, Total Units Sold, Total Revenue, Total Cost, Gross Profit, Gross Profit Margin, Average Revenue per Unit, Logistics Cost, Logistics Cost %, Return Count, Cancellation Rate and Average Customer Rating.
 
 ## Important rule
-
 Do not silently overwrite raw data. Keep raw fields and create cleaned/standardized analytical fields with documented rules and quality flags.
+## Conclusion
+The JCars project demonstrates the full BI workflow: raw data investigation, Power Query preparation, currency standardization, data modelling, DAX, interactive reporting, investigation and evidence-based management communication.
